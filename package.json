@@ -1,0 +1,46 @@
+{
+  "name": "bookthreejs",
+  "version": "1.0.0",
+  "description": "Three.js开发指南书籍学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "set NODE_ENV=development && gulp dev && gulp server",
+    "build": "set NODE_ENV=production && gulp dev && gulp build"
+  },
+  "keywords": [
+    "three.js"
+  ],
+  "author": "JYuan",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "art-template": "^4.13.2",
+    "autoprefixer": "^8.0.0",
+    "browser-sync": "^2.26.13",
+    "browserify": "^17.0.0",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-tpl": "^0.5.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-ignore": "^3.0.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-preprocess": "^3.0.3",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "http-proxy-middleware": "^1.0.6",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-paths": "^3.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
